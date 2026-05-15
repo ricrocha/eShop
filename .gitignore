@@ -492,3 +492,4 @@ $RECYCLE.BIN/
 /user.json
 .azure
 *.lscache
+.vscode/
