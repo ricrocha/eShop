@@ -1,6 +1,4 @@
-Here is the complete prompt:
-
----
+# Constitution Prompt 003
 
 > Analyze the entire eShop solution codebase — every project, its `.csproj` references, Directory.Packages.props, Directory.Build.props, global.json, .editorconfig, Program.cs files, service registrations, domain model, infrastructure layer, API layer, tests, and AppHost orchestration.
 >

@@ -1,8 +1,6 @@
-Here is the strengthened prompt:
+# Constitution Prompt 004
 
----
-
-> You are a senior architect with deep knowledge of .NET microservices, DDD, CQRS, and cloud-native patterns. Analyze the **entire** eShop solution codebase without exception — every project, every `.csproj` and its package references, Directory.Packages.props, Directory.Build.props, global.json, .editorconfig, every Program.cs, every service registration extension, the full domain model, infrastructure layer, API layer, test projects, and the AppHost orchestration program.
+> Analyze the **entire** eShop solution codebase without exception — every project, every `.csproj` and its package references, Directory.Packages.props, Directory.Build.props, global.json, .editorconfig, every Program.cs, every service registration extension, the full domain model, infrastructure layer, API layer, test projects, and the AppHost orchestration program.
 >
 > Produce a **Developer Constitution** in Markdown suitable for use as a copilot-instructions.md file. This document is the single source of truth for how all code in this repository must be written — by humans and AI assistants alike. Every rule must be derived from evidence found in the actual codebase or its configuration files. Do not invent guidance that has no basis in the existing code.
 >
