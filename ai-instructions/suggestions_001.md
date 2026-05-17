@@ -1,38 +1,4 @@
-I'll analyze the existing solution to understand what services are already in place and suggest what you might want to build next.  
-
-Semantic workspace search is not currently available
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src)
-
-Searched for regex `AddProject.*API|describes?|manages?|handles?` (`**/Program.cs`), 9 results
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/README.md#1-1), lines 1 to 100
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src/Basket.API/Program.cs)
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src/Catalog.API/Program.cs)
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src/Ordering.API/Program.cs)
-
-Searched for text `class CatalogItem` (`**/src/Catalog.API/**/*.cs`), 2 results
-
-Searched for text `class CustomerBasket` (`**/src/Basket.API/**/*.cs`), 1 result
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src/Catalog.API)
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src/Ordering.API)
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src/Catalog.API/IntegrationEvents)
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src/Basket.API)
-
-Searched for files matching `**/*IntegrationEvent.cs`, 20 matches
-
-Viewed image [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/img/eshop_architecture.png)
-
-Read [](file:///c%3A/001_Dev/SPC_KT_TRNNG/eShop/src/eShop.AppHost/Program.cs#1-1), lines 1 to 80
-
-Based on my analysis of the eShop solution, here's what currently exists and what you could build next:
+# Recommendations 001
 
 ## Current Services:
 - **Identity.API** - Authentication & authorization
